@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  },
+  "scripts": {
+    "dev": "postcss main.css -o dist/style.css"
+  },
+  "dependencies": {
+    "alk-life": "^1.0.0",
+    "alk-rounded-mtav-med": "^1.0.0",
+    "archyedt-bold": "^1.0.0",
+    "bpg-phone-sans-bold": "^1.0.0",
+    "postcss-cli": "^11.0.0"
+  }
+}
