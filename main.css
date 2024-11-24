@@ -1,7 +1,6 @@
 /* fonts */
-@import 'alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css';
-@import 'archyedt-bold/css/archyedt-bold.min.css';
-
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
 
 @tailwind base;
 @tailwind components;
