@@ -1,7 +1,3 @@
-{
-    test: /\.(woff|woff2|ttf|otf|eot)$/,
-    use: 'file-loader',
-  }
   
 
 const burgerMenuBtn = document.getElementById("burgerMenuBtn");

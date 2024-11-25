@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html"],
   theme: {
     extend: {
+      screens: {
+        mobile: "350px",
+      },
       fontFamily: {
         sans: ["Roboto", "Arial", "sans-serif"],
         primary: ["ALK Rounded Mtav Med", "serif"],
