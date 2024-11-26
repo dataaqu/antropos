@@ -1,5 +1,7 @@
   
 
+///burger menu
+
 const burgerMenuBtn = document.getElementById("burgerMenuBtn");
 const navbar = document.getElementById("navbar");
 const burgerIcon = document.getElementById("burgerIcon");
