@@ -1,25 +1,3 @@
-///burger menu
-
-const burgerMenuBtn = document.getElementById("burgerMenuBtn");
-const navbar = document.getElementById("navbar");
-const burgerIcon = document.getElementById("burgerIcon");
-
-// Toggle navbar visibility and burger icon animation on button click
-burgerMenuBtn.addEventListener("click", () => {
-  // Toggle navbar visibility
-  navbar.classList.toggle("hidden");
-  navbar.classList.toggle("block");
-
-  // Toggle burger icon to X and vice versa
-  if (navbar.classList.contains("block")) {
-    burgerIcon.classList.remove("fa-bars");
-    burgerIcon.classList.add("fa-times"); // Change to X icon
-  } else {
-    burgerIcon.classList.remove("fa-times");
-    burgerIcon.classList.add("fa-bars"); // Change back to burger icon
-  }
-});
-
 //////////////ANIMATIONS///////////////////
 
 ////////////////navs////////////
@@ -85,5 +63,5 @@ ScrollReveal().reveal(".bottom", {
 ScrollReveal().reveal(".button", {
   opacity: 0,
   duration: 1000,
-  delay: 200,
+  delay: 500,
 });

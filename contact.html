@@ -21,10 +21,13 @@
       rel="stylesheet"
     />
 
+    <!--=============== Animation ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>Antropos</title>
   </head>
   <body>
-    <header class="relative">
+    <header class="relative nav">
       <div
         class="container px-6 py-6 mx-auto lg:flex lg:items-center lg:justify-between"
       >
@@ -96,15 +99,15 @@
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h2
-            class="text-3xl lg:text-5xl font-extrabold text-gray-900 font-secondary"
+            class="text-3xl lg:text-5xl font-extrabold text-gray-900 font-secondary title"
           >
             საკონტაქტო ინფორმაცია
           </h2>
-          <p class="mt-4 text-lg lg:text-2xl font-primary text-gray-500">
+          <p class="mt-4 text-lg lg:text-2xl font-primary text-gray-500 bottom">
             გვეწვიეთ კლინიკაში ან დაგვიკავშირდით
           </p>
         </div>
-        <div class="mt-16 lg:mt-20 bg-gray-100 rounded-lg">
+        <div class="mt-16 lg:mt-20 bg-gray-100 rounded-lg button">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="rounded-lg overflow-hidden">
               <iframe
@@ -118,7 +121,7 @@
               ></iframe>
             </div>
             <div>
-              <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+              <div class="max-w-full mx-auto rounded-lg overflow-hidden ">
                 <div class="px-6 py-4 lg:py-10">
                   <h3
                     class="text-lg lg:text-2xl font-secondary font-bold text-gray-800 text-center mb-2"
@@ -288,9 +291,9 @@
       </div>
     </section>
 
-    <footer class="bg-firstBlue">
+    <footer class="bg-firstBlue nav">
       <div
-        class="container flex flex-col items-center justify-between px-10 py-12 mx-auto lg:flex-row"
+        class="container flex flex-col items-center justify-between px-10 py-12 mx-auto lg:flex-row bottom"
       >
         <a class="flex flex-row items-center" href="./index.html">
           <img class="w-auto h-16" src="./img/logo.png" alt="footer logo" />
