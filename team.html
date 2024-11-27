@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./img/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./dist/style.css" />
+
+    <!--=============== FONTS ===============-->
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Antropos</title>
+  </head>
+  <body>
+    <header class="relative">
+      <div
+        class="container px-6 py-6 mx-auto lg:flex lg:items-center lg:justify-between"
+      >
+        <!-- Logo and Branding -->
+        <div class="flex items-center justify-between">
+          <a href="./index.html" class="flex items-center -mx-1">
+            <img class="h-20" src="/img/logo.png" alt="Logo" />
+            <div class="mx-1 text-gray-700 text-2xl hidden xl:block">
+              <h3 class="uppercase tracking-[0.05em] font-semibold">
+                Antropos
+              </h3>
+            </div>
+          </a>
+
+          <!-- Burger Menu for small screens -->
+          <div class="lg:hidden mt-4 relative" id="burgerMenuContainer">
+            <button id="burgerMenuBtn" class="text-3xl text-firstBlue">
+              <i id="burgerIcon" class="fas fa-bars"></i>
+              <!-- FontAwesome burger icon -->
+            </button>
+          </div>
+        </div>
+
+        <!-- Navbar (hidden on small screens by default) -->
+
+        <div
+          id="navbar"
+          class="mt-6 lg:flex lg:space-x-6 hidden lg:flex-row font-primary absolute lg:static w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-13 sm:top-24 bg-white"
+        >
+          <nav
+            class="flex flex-col items-center space-y-5 lg:flex-row lg:space-y-0 lg:-mx-4"
+          >
+            <a
+              href="./index.html"
+              class="font-bold text-[1.3rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+            >
+              მთავარი
+            </a>
+            <a
+              href="./about.html"
+              class="font-bold text-[1.3rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+            >
+              ჩვენს შესახებ
+            </a>
+            <a
+              href="./fields.html"
+              class="font-bold text-[1.3rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4 pointer-events-none"
+            >
+              მიმართულებები
+            </a>
+            <a
+              href="#"
+              class="font-bold text-[1.3rem] xl:text-[1.6rem]  text-gray-700 lg:mx-4 pointer-events-none"
+            >
+              სამედიცინო პერსონალი
+            </a>
+            <a
+              href="#"
+              class="font-bold text-[1.3rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+            >
+              კონტაქტი
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-bold text-center text-gray-800 font-secondary capitalize lg:text-5xl ">სამედიცინო პერსონალი</h1>
+    
+            <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 ">
+                ჩვენი გუნდი რომელიც შედგება პროფესიონალი ექიმებისგან, რომლებიც მზად
+                არიან უზრუნველყონ მაღალი ხარისხის მკურნალობა ჩვენი პაციენტებისთვის
+            </p>
+    
+        
+    
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+                <div class="flex flex-col items-center">
+                    <img class="object-cover w-full rounded-xl aspect-square" src="./img/ერასტი ლობჯჟანიძე-min.jpg">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 font-secondary capitalize ">ერასტი ლობჟანიძე</h1>
+    
+                    <p class="mt-2 text-gray-600 font-primary text-xl capitalize ">რადიოლოგი (ექოსკოპისტი)</p>
+    
+                   
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="object-cover w-full rounded-xl aspect-square" src="./img/კარდიოლოგი მირანდა ჟაჭვლიანი .jpg">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 font-secondary capitalize ">მირანდა ჟაჭვლიანი</h1>
+    
+                    <p class="mt-2 text-gray-600 font-primary text-xl capitalize ">კარდიოლოგი</p>
+    
+                   
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="object-cover w-full rounded-xl aspect-square" src="./img/მეან-გინეკოლოგი ნატალია ბილბაო.jpg">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 font-secondary capitalize ">ნატალია ბილბაო</h1>
+    
+                    <p class="mt-2 text-gray-600 font-primary text-xl capitalize ">მეან-გინეკოლოგი</p>
+    
+                   
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <img class="object-cover w-full rounded-xl aspect-square" src="./img/ელიკო მათიაშვილი-min.jpg">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 font-secondary capitalize ">ელიკო მათიაშვილი</h1>
+    
+                    <p class="mt-2 text-gray-600 font-primary text-xl capitalize ">ფიზიოთერაპევტი</p>
+    
+                   
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <img class="object-cover w-full rounded-xl aspect-square" src="./img/დემურ ჭაფანძე-min.jpg">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 font-secondary capitalize ">დემურ ჭაფანძე</h1>
+    
+                    <p class="mt-2 text-gray-600 font-primary text-xl capitalize ">თერაპევტი</p>
+    
+                   
+                </div>
+              
+
+                <div class="flex flex-col items-center">
+                    <img class="object-cover w-full rounded-xl aspect-square" src="./img/ნევროლოგი ლანა გელოვანი .jpg">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 font-secondary capitalize ">ლანა გელოვანი</h1>
+    
+                    <p class="mt-2 text-gray-600 font-primary text-xl capitalize ">ნევროლოგი</p>
+    
+                   
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-firstBlue">
+      <div
+        class="container flex flex-col items-center justify-between px-10 py-12 mx-auto lg:flex-row"
+      >
+        <a class="flex flex-row items-center" href="./index.html">
+          <img class="w-auto h-16" src="./img/logo.png" alt="footer logo" />
+          <div class="mx-1 text-white text-2xl hidden xl:block">
+            <h3 class="uppercase tracking-[0.05em] font-semibold">Antropos</h3>
+          </div>
+        </a>
+
+        <div
+          class="flex flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0"
+        >
+          <a
+            href="./index.html"
+            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+          >
+            მთავარი
+          </a>
+
+          <a
+            href="./about.html"
+            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+          >
+            ჩვენ შესახებ
+          </a>
+
+          <a
+            href="#"
+            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+          >
+            მიმართულებები
+          </a>
+          <a
+            href="#"
+            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+          >
+            სამედიცინო პერსონალი
+          </a>
+
+          <a
+            href="#"
+            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+          >
+            კონტაქტი
+          </a>
+        </div>
+
+        <p class="mt-6 text-lg text-white lg:mt-0">
+          © Copyright 2024 Antropos.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
