@@ -3,12 +3,15 @@
 const burgerMenuBtn = document.getElementById("burgerMenuBtn");
 const navbar = document.getElementById("navbar");
 const burgerIcon = document.getElementById("burgerIcon");
+const overlay = document.getElementById("overlay");
 
 // Toggle navbar visibility and burger icon animation on button click
 burgerMenuBtn.addEventListener("click", () => {
   // Toggle navbar visibility
   navbar.classList.toggle("hidden");
   navbar.classList.toggle("block");
+  overlay.classList.toggle('hidden');
+
 
   // Toggle burger icon to X and vice versa
   if (navbar.classList.contains("block")) {
