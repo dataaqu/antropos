@@ -2,33 +2,6 @@
 @import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
 @import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
 
-
-/* Customize for Webkit Browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
-}
-
-::-webkit-scrollbar-track {
-  background: #f0f0f0; /* Background of the scrollbar track */
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the draggable part */
-  border-radius: 4px; /* Rounded edges */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Hover effect */
-}
-
-/* Optional for Firefox */
-.scrollable {
-  scrollbar-width: thin; /* Thin scrollbar */
-  scrollbar-color: #888 #f0f0f0; /* Thumb and track colors */
-}
-
-
-
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -158,8 +131,6 @@
   --tw-content: '';
 }
 
-
-
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -182,6 +153,38 @@ html,
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
 }
+
+/* For the entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* The scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 6px; /* Rounded corners for the track */
+}
+
+/* The scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+  border: 2px solid #f0f0f0; /* Add a gap between thumb and track */
+}
+
+/* Hover effect for the scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovering over the thumb */
+}
+
+/* Customize scrollbar for Firefox */
+.scroll-container {
+  scrollbar-width: thin; /* Make the scrollbar thinner */
+  scrollbar-color: #888 #f0f0f0; /* Thumb and track colors */
+}
+
+
 
 /*
 1. Remove the margin in all browsers.
@@ -1026,8 +1029,20 @@ video {
 .font-primary{
   font-family: ALK Rounded Mtav Med, serif;
 }
+.font-primaryEng{
+  font-family: Kanit, serif;
+}
+.font-primaryRus{
+  font-family: Overpass, serif;
+}
 .font-secondary{
   font-family: ArchyEDT-Bold, serif;
+}
+.font-secondaryEng{
+  font-family: Ubuntu, serif;
+}
+.font-secondaryRus{
+  font-family: Play, serif;
 }
 .text-2xl{
   font-size: 1.5rem;
@@ -1394,6 +1409,12 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-y-2 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
   }
 
   .md\:bg-cover{

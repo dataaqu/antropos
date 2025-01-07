@@ -8,16 +8,24 @@
     <link
       rel="icon"
       type="image/png"
-      href="./img/favicon-96x96.png"
+      href="../img/favicon-96x96.png"
       sizes="96x96"
     />
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="stylesheet" href="../dist/style.css" />
 
     <!--=============== FONTS ===============-->
 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONTS RUS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -50,59 +58,59 @@
 
         <div
           id="navbar"
-          class="mt-6 lg:flex lg:space-x-2 hidden lg:flex-row font-primary relative lg:static w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-13 sm:top-24 bg-white"
+          class="mt-6 lg:flex lg:space-x-2 hidden lg:flex-row font-primaryRus relative lg:static w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-13 sm:top-24 bg-white"
         >
           <nav
             class="flex flex-col items-center space-y-5 lg:flex-row lg:space-y-0 lg:-mx-4"
           >
             <a
               href="./index.html"
-              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4 uppercase"
             >
-              მთავარი
+              основной
             </a>
             <a
               href="./about.html"
-              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] lg:mx-4 text-firstRed hover:text-gray-700 uppercase"
             >
-              ჩვენს შესახებ
+              о нас
             </a>
             <a
               href="./fields.html"
-              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4 uppercase"
             >
-              მიმართულებები
+              Направления
             </a>
             <a
               href="./team.html"
-              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-firstRed hover:text-gray-700 lg:mx-4"
+              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] lg:mx-4 uppercase text-firstRed hover:text-gray-700"
             >
-              სამედიცინო პერსონალი
+              Мед-персонал
             </a>
             <a
               href="#"
-              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] lg:mx-4 text-gray-700 pointer-events-none"
+              class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] pointer-events-none text-gray-700 lg:mx-4 uppercase"
             >
-              კონტაქტი
+              контакт
             </a>
 
             <div class="flex space-x-2 items-center">
               <a
-                href="#"
-                class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-white pointer-events-none bg-firstRed rounded-xl p-1"
+                href="/index.html"
+                class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-gray-700"
               >
                 ქარ
               </a>
 
               <a
                 href="#"
-                class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-gray-700"
+                class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-white pointer-events-none bg-firstRed rounded-xl p-1"
               >
                 RU
               </a>
 
               <a
-                href="#"
+                href="/ENG/index.html"
                 class="font-bold text-[1.3rem] md:text-[1.1rem] xl:text-[1.6rem] text-gray-700"
               >
                 ENG
@@ -117,12 +125,14 @@
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h2
-            class="text-3xl lg:text-5xl font-extrabold text-gray-900 font-secondary title"
+            class="text-3xl lg:text-5xl font-extrabold text-gray-900 font-secondaryRus title"
           >
-            საკონტაქტო ინფორმაცია
+            Контактная информация
           </h2>
-          <p class="mt-4 text-lg lg:text-2xl font-primary text-gray-500 bottom">
-            გვეწვიეთ კლინიკაში ან დაგვიკავშირდით
+          <p
+            class="mt-4 text-lg lg:text-2xl font-primaryRus text-gray-500 bottom"
+          >
+            Посетите нашу клинику или свяжитесь с нами
           </p>
         </div>
         <div class="mt-16 lg:mt-20 bg-gray-100 rounded-lg button">
@@ -142,9 +152,9 @@
               <div class="max-w-full mx-auto rounded-lg overflow-hidden">
                 <div class="px-6 py-4 lg:py-10">
                   <h3
-                    class="text-lg lg:text-2xl font-secondary font-bold text-gray-800 text-center mb-2"
+                    class="text-lg lg:text-2xl font-secondaryRus font-bold text-gray-800 text-center mb-2"
                   >
-                    ჩვენი მისამართი
+                    Наш адрес
                   </h3>
                   <div class="flex gap-4 items-center">
                     <svg
@@ -175,15 +185,15 @@
                     <p
                       class="mt-1 font-semibold text-md lg:text-lg text-gray-700"
                     >
-                      თბილისი. ნავთლუღის ჩიხი №9
+                      Тбилиси. Улица Навтлуги №9
                     </p>
                   </div>
                 </div>
                 <div class="px-6 py-4">
                   <h3
-                    class="text-lg lg:text-2xl font-secondary font-bold text-gray-800 text-center mb-2"
+                    class="text-lg lg:text-2xl font-secondaryRus font-bold text-gray-800 text-center mb-2"
                   >
-                    სამუშაო საათები
+                    рабочее время
                   </h3>
                   <div class="flex gap-4 items-center">
                     <svg
@@ -214,16 +224,16 @@
                     <p
                       class="mt-1 font-semibold text-md lg:text-lg text-gray-700"
                     >
-                      ორშაბათი-პარასკევი: 10-18 საათი
+                      Понедельник-пятница: 10-18 часов
                     </p>
                   </div>
                 </div>
 
                 <div class="px-6 py-4">
                   <h3
-                    class="text-lg lg:text-2xl font-secondary font-bold text-gray-800 text-center mb-2"
+                    class="text-lg lg:text-2xl font-secondaryRus font-bold text-gray-800 text-center mb-2"
                   >
-                    საკონტაქტო ინფორმაცია
+                    Контактная информация
                   </h3>
 
                   <div class="flex gap-4 items-center">
@@ -241,7 +251,8 @@
                     <p
                       class="mt-1 font-semibold text-md lg:text-lg text-gray-700"
                     >
-                      599 99 99 99
+                      0322 74 61 00 <br />
+                      599 74 61 01
                     </p>
                   </div>
 
@@ -280,7 +291,7 @@
                     <p
                       class="mt-1 font-semibold text-md lg:text-lg text-gray-700"
                     >
-                      mail@mail.com
+                      antropos.ge@gmail.com
                     </p>
                   </div>
 
@@ -314,7 +325,7 @@
         class="container flex flex-col items-center justify-between px-10 py-12 mx-auto lg:flex-row bottom"
       >
         <a class="flex flex-row items-center" href="./index.html">
-          <img class="w-auto h-16" src="./img/logo.png" alt="footer logo" />
+          <img class="w-auto h-16" src="../img/logo.png" alt="footer logo" />
           <div class="mx-1 text-white text-2xl hidden xl:block">
             <h3 class="uppercase tracking-[0.05em] font-semibold">Antropos</h3>
           </div>
@@ -325,36 +336,36 @@
         >
           <a
             href="./index.html"
-            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+            class="text-lg font-primaryRus text-white transition-colors duration-300 hover:text-firstRed uppercase"
           >
-            მთავარი
+            основной
           </a>
 
           <a
             href="./about.html"
-            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+            class="text-lg font-primaryRus text-white transition-colors duration-300 hover:text-firstRed uppercase"
           >
-            ჩვენ შესახებ
+            о нас
           </a>
 
           <a
             href="./fields.html"
-            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+            class="text-lg font-primaryRus text-white transition-colors duration-300 hover:text-firstRed uppercase"
           >
-            მიმართულებები
+            Направления
           </a>
           <a
             href="./team.html"
-            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+            class="text-lg font-primaryRus text-white transition-colors duration-300 hover:text-firstRed uppercase"
           >
-            სამედიცინო პერსონალი
+            Мед-персонал
           </a>
 
           <a
             href="#"
-            class="text-lg font-primary text-white transition-colors duration-300 hover:text-firstRed"
+            class="text-lg font-primaryRus text-white transition-colors duration-300 hover:text-firstRed uppercase"
           >
-            კონტაქტი
+            контакт
           </a>
         </div>
 
@@ -378,7 +389,7 @@
               />
             </svg>
           </a>
-          <a class="mr-2" href="#"
+          <a class="mr-2" href="mailto:antropos.ge@gmail.com"
             ><svg
               class="h-6 w-6"
               viewBox="0 0 24 24"
@@ -392,7 +403,7 @@
                 fill="#FFFFFF"
               /></svg
           ></a>
-          <a href="#">
+          <a href="tel:+995599746101">
             <svg
               class="h-6 w-6"
               viewBox="0 0 24 24"
@@ -421,10 +432,10 @@
           </a>
         </div>
       </div>
-      <p class="py-6 mt-6 text-lg text-white lg:mt-0 text-center">
+      <p class="py-6 mt-6 text-lg text-white lg:mt-0 text-center nav">
         © Copyright 2024 Antropos.
       </p>
     </footer>
-    <script src="./main.js"></script>
+    <script src="../main.js"></script>
   </body>
 </html>
